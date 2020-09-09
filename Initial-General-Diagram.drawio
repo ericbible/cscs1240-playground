@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T09:04:42.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="AsTYTDBP6kCYLsDBxv6B" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-09T18:36:57.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="9mNspkMuie9JHZpDdCYC" version="13.6.9" type="github">
   <diagram id="5D8qNTRdmMwEj9FWk4MJ" name="Page-1">
-    <mxGraphModel dx="402" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,9 +29,11 @@
           <mxGeometry x="480" y="280" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-4" value="Inventory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="90" width="160" height="160" as="geometry" />
+          <mxGeometry x="480" y="90" width="160" height="160" as="geometry">
+            <mxRectangle x="480" y="90" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P3mPxScj2Zqd-la4n4Jk-5" value="capacity : number&#xa;stock : number&#xa;items : array&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="P3mPxScj2Zqd-la4n4Jk-4">
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-5" value="capacity : number&#xa;stock : number&#xa;items : list or array&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="P3mPxScj2Zqd-la4n4Jk-4">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="P3mPxScj2Zqd-la4n4Jk-4">
@@ -90,11 +92,14 @@
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-23" value="Array&lt;br&gt;Groceries&lt;br&gt;1 Milk&lt;br&gt;2 Eggs&lt;br&gt;3 Bread&lt;br&gt;4 Cookies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="-110" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="P3mPxScj2Zqd-la4n4Jk-24" value="Linked List&lt;br&gt;Singly Linked List&lt;br&gt;Doubly Linked List" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="520" width="110" height="50" as="geometry" />
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-24" value="Linked List&lt;br&gt;Singly Linked List (one direction)&lt;br&gt;Doubly Linked List (multi-directional connections)&lt;br&gt;Lists use more memory than arrays" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="-5" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-25" value="Data Types - tell you how much memory will be used and how it is organized" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="-190" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-26" value="data + meaning (context) = information" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-270" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
