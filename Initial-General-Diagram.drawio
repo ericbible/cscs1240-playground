@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T18:44:30.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="3Jl9WjTTYdZibKgK3ivp" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-09T18:53:37.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="2nZ6U8PjTxqAAvqd047N" version="13.6.9" type="github">
   <diagram id="5D8qNTRdmMwEj9FWk4MJ" name="Page-1">
     <mxGraphModel dx="2388" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -140,8 +140,8 @@
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-39" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="170" y="-670" width="50" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="P3mPxScj2Zqd-la4n4Jk-40" value="byte (multiple = words when talking of processor power)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="-530" width="310" height="20" as="geometry" />
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-40" value="byte (multiple = words when talking of processor power)&lt;br&gt;OCTET, not necessarily a byte depends on charset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="-535" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-41" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="-250" width="20" height="20" as="geometry" />
@@ -202,6 +202,15 @@
         </mxCell>
         <mxCell id="P3mPxScj2Zqd-la4n4Jk-61" value="LSb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="-190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-62" value="endian-ness" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-210" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-63" value="little" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P3mPxScj2Zqd-la4n4Jk-64" value="big" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-190" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
